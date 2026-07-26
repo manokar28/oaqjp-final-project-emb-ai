@@ -1,0 +1,4 @@
+exit()  # Exit any old broken shell
+python3
+from EmotionDetection.emotion_detection import emotion_detector
+emotion_detector("I love this new technology.")
