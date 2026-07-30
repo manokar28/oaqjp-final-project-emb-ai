@@ -1,0 +1,13 @@
+======================================================================
+1. APPLICATION PACKAGING CONTAINER DIRECTORY STRUCTURE
+======================================================================
+oaqjp-final-project-emb-ai/
+│
+└── EmotionDetection/
+    ├── __init__.py
+    └── emotion_detection.py
+
+======================================================================
+2. CONTENTS OF THE PACKAGE INITIALIZATION FILE (__init__.py)
+======================================================================
+from . import emotion_detection
